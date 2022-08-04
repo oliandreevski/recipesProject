@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.btn {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+.btn:hover {
+  background-color: #390411;
+}
+
+.btn--primary--solid {
+  background-color: #132743;
+  color: #ffffff;
+  border: none;
+}
+
+.btn--secondary--solid {
+  background-color: #e01044;
+  color: #ffffff;
+  border: none;
+}
+
+.btn--danger--solid {
+  background-color: #ff003f;
+  color: #ffffff;
+  border: none;
+}
+
+.btn--warning--solid {
+  background-color: #ffdd51;
+  color: #ffffff;
+  border: none;
+}
+
+.btn--success--solid {
+  background-color: #c80e3d;
+  color: #ffffff;
+  border: none;
+}
+
+.btn--primary--outline {
+  background-color: transparent;
+  border: 2px solid #020407;
+  color: #132743;
+}
+
+.btn--secondary--outline {
+  background-color: transparent;
+  border: 2px solid #e01044;
+  color: #e01044;
+}
+
+.btn--danger--outline {
+  background-color: transparent;
+  border: 2px solid #ff003f;
+  color: #ff003f;
+}
+
+.btn--warning--outline {
+  background-color: transparent;
+  border: 2px solid #ffdd51;
+  color: #ffdd51;
+}
+
+.btn--success--outline {
+  background-color: transparent;
+  border: 2px solid #c80e3d;
+  color: #c80e3d;
+}
+
+.btn--large {
+  width: 180px;
+  height: 95px;
+  font-size: 1.3rem;
+}
+
+.btn--medium {
+  width: 60px;
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+.btn--small {
+  width: 50px;
+  height: 30px;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=button.css.map */

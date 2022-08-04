@@ -1,0 +1,26 @@
+@import '../../../Sass/_variables'
+
+table
+    table-layout: fixed
+    width: 80%
+    border-collapse: collapse
+    border: 1px solid $white-700
+    text-align: center
+
+thead
+    border-bottom: 2px solid $primary
+    padding: 4px
+    &:first-child
+        width: 60%
+    &:last-child
+        width: 50%
+
+.deleteButton 
+    display: block
+    border: none
+    color: $white
+    background-color: $secondary
+    width: 110px
+    padding: 10px
+    margin: 100px 0
+    cursor: pointer

@@ -1,0 +1,47 @@
+@import '../../Sass/_variables'
+
+
+.navbar
+    background-color: $primary
+    display: flex
+    height: 11vh
+    justify-content: space-between
+    align-items: center
+
+.nav-link-list
+    display: flex
+    width: 450px
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    list-style-type: none
+
+.link--item
+    position: relative
+    display: inline-block
+    color: $white
+    text-decoration: none
+    font-size: $font-size-h6
+
+    &::after
+        content: ''
+        position: absolute
+        bottom: 0
+        left: 50%
+        width: 0%
+        height: 1px
+        background-color: $secondary-light-700
+        transition: 0.4s ease-out
+    
+    &:hover::after
+        left: 0
+        width: 100%
+
+.logo
+    display: flex
+    justify-content: center
+    font-family: $font-Lato
+    font-size: $font-size-h1
+    color: $white
+    margin-left: 20px
+
